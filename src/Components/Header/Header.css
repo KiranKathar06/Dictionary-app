@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 35vh;
+  width: 100%;
+  background-color: #2e2eff;
+}
+
+.title {
+  font-size: 4vh;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+@media (max-width: 900px) {
+  .header {
+    justify-content: space-evenly;
+    height: 25vh;
+  }
+  .title {
+    font-size: 15vw;
+  }
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+
+.search {
+  width: 40%;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 12px !important;
+}
+
+.select {
+  width: 43%;
+}

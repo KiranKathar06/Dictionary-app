@@ -5,14 +5,21 @@
   flex-direction: column;
   height: 35vh;
   width: 100%;
-  background-color: #2e2eff;
+  background-image: url("./logo.jpg");
+  background-size: cover;
 }
 
 .title {
   font-size: 4vh;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 500;
+  font-family: "Lucida Console", Times, serif;
   color: aliceblue;
+  margin: 40px auto;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 3px 4px 7px rgba(233, 229, 216, 0.8);
 }
 
 @media (max-width: 900px) {
@@ -22,6 +29,7 @@
   }
   .title {
     font-size: 15vw;
+    margin-top: 10vw;
   }
 }
 

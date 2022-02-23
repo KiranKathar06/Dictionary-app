@@ -1,14 +1,15 @@
 .meanings {
   display: flex;
   flex-direction: column;
+
   overflow-y: scroll;
   scrollbar-width: thin;
-  height: 55vh;
   border: 3px;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 40px 30px;
   box-shadow: inset;
   overflow-x: hidden;
+  background-color: "#F9F6EE !important";
 }
 
 .subTitle {

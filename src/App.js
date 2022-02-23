@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { Container } from "@mui/material";
 import Header from "../src/Components/Header/Header";
 import Definition from "./Components/Definition/Definition";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const [word, setWord] = useState("");
@@ -30,6 +31,7 @@ function App() {
     <div className="App">
       <Header word={word} setWord={setWord} meanings={meanings} />
       {meanings && <Definition word={word} meanings={meanings} />}
+      <Footer />
     </div>
   );
 }
